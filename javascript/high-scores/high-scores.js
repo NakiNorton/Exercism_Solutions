@@ -5,7 +5,6 @@ export class HighScores {
   }
 
   get scores() {
-  console.log('scores', this.gameScores)
     return this.gameScores
   }
 
